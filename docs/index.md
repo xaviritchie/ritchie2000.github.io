@@ -2,34 +2,34 @@
 layout: home
 
 hero:
-  name: Hi, I'm Ritchie 王则钰
-  text: Welcome to my site 💫
-  tagline: 我写了一些Java笔记……
+  name: Hi, I'm Ritchie
+  text: Welcome to my space🌌
+  tagline: 你好！我是王则钰ฅ:Dฅ，从这里开始新的编程之旅🛫，日积跬步，以致千里。✍🏼
   image:
     src: /logo.svg
     alt: Vite Logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /java/se/01入门.md
+      text: 开始学习
+      link: /jvm/
     - theme: alt
-      text: 我的GitHub
-      link: https://github.com/ritchie2000
+      text: View on GitHub
+      link: https://github.com/ritchie2000/ritchie2000.github.io
 
 features:
   - icon: ☕
     title: Java
-    details: MyBatis、Maven、Spring、Shiro
+    details: JVM、GC
   - icon: 🐱‍💻
     title: 数据库
-    details: MySQL、Redis、Nginx、ElasticSearch
+    details: MySQL、Redis、ElasticSearch
   - icon: 🐋
     title: 分布式微服
-    details: Docker、Linux、RabbitMQ、Rocket、Nacos
+    details: Docker、Linux、RabbitMQ、Nacos、Seata
 ---
 
 <style>
-	:root {
+:root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
 }
