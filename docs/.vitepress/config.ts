@@ -57,7 +57,8 @@ export default defineConfig({
         sidebar:
         {
             '/jvm/': [
-                { text: 'Java', link: '/jvm/' }
+                { text: 'JVM', link: '/jvm/' },
+                { text: 'Java', link: '/jnote/'}
             ],
             '/db/': [
                 {
