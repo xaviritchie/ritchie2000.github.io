@@ -8,7 +8,6 @@ title: Activity
 [在线运行](https://www.lddgo.net/code/runcode/go)
 
 ```go
-
 package main
 
 import (
@@ -18,11 +17,17 @@ import (
 )
 
 func main() {
-	names := []string{"张三", "李四", "王五", "赵六", "钱七", "孙八", "周九", "吴十"}
+	names := []string{
+	    "张凤兰", "王巧贤", "阮珊珊", "谢焕婷", "李婕妤", "李  广", "刘  云", 
+	    "邓远锋", "吴宗澍", "曾文龙", "黄  彦", "刘银华", "肖夜华", "严成发", 
+	    "文孔燊", "洪序滨", "江锦文", "张乐瑶", "张镜明", "陈智雄", "陈珍旭", 
+	    "王莞琳", "王和富", "王则钰", "王  杰",
+	}
+	
 	excludedNames := map[string]struct{}{
-		"张三": struct{}{},
-		"李四": struct{}{},
-		"王五": struct{}{},
+		"王则钰": struct{}{},
+		"张镜明": struct{}{},
+		"李  广": struct{}{},
 	}
 
 	rand.Seed(time.Now().UnixNano())

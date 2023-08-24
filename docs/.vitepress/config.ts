@@ -48,10 +48,10 @@ export default defineConfig({
                         text: '博客园',
                         link: 'https://www.cnblogs.com/wang-zeyu/'
                     },
-                    {
-                        text: '活动',
-                        link: '/activity/'
-                    },
+                    // {
+                    //     text: '活动',
+                    //     link: '/hd/'
+                    // },
                 ]
             }
         ],
