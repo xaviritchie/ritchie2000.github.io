@@ -39,14 +39,18 @@ export default defineConfig({
             {
                 text: 'Other',
                 items: [
-                    {
-                        // Title for the section.
-                        text: '以前的博客',
-                        link: 'https://ritchie2000.gitee.io/'
-                    },
+                    // {
+                    //     // Title for the section.
+                    //     text: '以前的博客',
+                    //     link: 'https://xritchie.gitee.io/xritchie'
+                    // },
                     {
                         text: '博客园',
                         link: 'https://www.cnblogs.com/wang-zeyu/'
+                    },
+                    {
+                        text: '活动',
+                        link: '/activity/'
                     },
                 ]
             }
@@ -113,7 +117,7 @@ export default defineConfig({
 
         // 社交链接
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/ritchie2000' },
+            { icon: 'github', link: 'https://github.com/xaviritchie' },
             // { icon: 'twitter', link: '' },
             // You can also add custom icons by passing SVG as string:
             // {
@@ -132,7 +136,7 @@ export default defineConfig({
 
         footer: {
             message: 'Powered by <a href="https://vitepress.vuejs.org/">VitePress</a>.',
-            copyright: 'Copyright © 2022-present <a href="https://gitee.com/ritchie2000">Ritchie 王则钰</a>'
+            copyright: 'Copyright © 2022-present <a href="https://gitee.com/xritchie">Ritchie 王则钰</a>'
         }
     }
 })
